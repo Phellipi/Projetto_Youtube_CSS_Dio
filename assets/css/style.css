@@ -1,0 +1,175 @@
+@import url(reset.css);
+
+body{
+  background-color: #f8f8f8;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+
+}
+
+.video-area{
+  display: flex;
+  flex-flow: column nowrap;
+  max-width: 952px;
+
+}
+
+.menu{
+    
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    height: 56px;
+    padding: 12px 24px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+
+.menu-content{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.search{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.options{
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1rem;
+}
+
+
+#search-box input{
+  display: flex;
+  width: 500px;
+  height: 30px;
+  border: 1px solid #CCC;
+  border-radius: 15px 0 0 15px;
+}
+
+#search-buttom a{
+  border: 1px solid #CCC;
+  height: 30px;
+  width: 57px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f8f8f8;
+  border-radius: 0 15px 15px 0;
+}
+
+
+
+#video{
+  display: flex;
+  flex-flow: column nowrap;
+  font-weight: 600;
+  align-items: flex-start;
+
+}
+
+#video iframe{
+  width: 952px;
+  height: 537px;
+  margin-bottom: 16px;
+  border-radius: 16px;
+}
+
+
+.actions{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 902px;
+  margin-top: 16px;
+}
+
+#channel-icon{
+  display: flex;
+  gap: 12px;
+}
+
+#channel-icon p{
+  color: black;
+  font-weight: 600;
+}
+
+#sub-button button{
+  width: 159px;
+  height: 40px;
+  border-radius: 2px;
+  background: #C00;
+  border: 1px solid red;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  gap: 8px;
+}
+
+#info{
+  display: flex;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 16px 0 16px 0;
+}
+
+#description{
+  width: 550px;
+  height: 64px;
+  color: #515151;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.recommended{
+  padding-left: 25px;
+  max-width: 500px;
+  max-height: 100px;
+}
+
+
+.recommended-content{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.recommended-content-info{
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 0 0 0 16px;
+}
+
+.recommended-content-info h3{
+  padding: 0 0 5px 0;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.recommended-content-info p{
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-size: 12px;
+}
